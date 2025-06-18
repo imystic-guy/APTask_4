@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Task-4</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <h1 class="logo">My Portfolio</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <h2>Hello, I'm <span class="highlight">Manish Kuamr</span></h2>
+      <p class="hero-text">A passionate web developer crafting beautiful and functional websites.</p>
+      <a href="#projects" class="btn-primary">View My Projects</a>
+    </div>
+  </section>
+
+  <section id="about" class="section about-section container">
+    <h2>About Me</h2>
+    <p>
+      I'm a dedicated front-end developer specializing in creating modern, responsive websites with clean UI and UX. 
+      I love turning ideas into beautiful digital experiences.
+    </p>
+  </section>
+
+  <section id="projects" class="section projects-section container">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <a href="todo.html" class="project-card">
+        <h3>To-Do List App</h3>
+        <p>A handy task manager with local storage to keep you organized.</p>
+      </a>
+      <a href="products.html" class="project-card">
+        <h3>Product Listing</h3>
+        <p>Interactive product page with filtering and sorting features.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section container">
+    <h2>Contact Me</h2>
+    <form id="contactForm" class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Manish Kumar. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
